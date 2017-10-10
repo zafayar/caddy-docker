@@ -1,6 +1,6 @@
 FROM alpine:edge 
 MAINTAINER zafayar <zafayar@hotmail.com> 
-ENV CADDY_VERSION=v0.10.8 \
+ENV CADDY_VERSION=v0.10.10 \
     CADDYPATH=/store
 RUN apk --update upgrade \
     && apk add --no-cache --no-progress ca-certificates git \
